@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="menu">
+        <div class="botonInicio"><a href="index.html">Volver al Inicio</a> </div>
+        <h1><b>Deja tu mensaje!</b></h1>
+    </header>
+    <main>
+        <form action="#">
+            <fieldset>
+
+                <!-- Input Usuario-->
+                <label for="Nombre">Nombre</label>
+                <br>
+                <input type="text" name="Nombre" id="Nombre">
+                <br>
+                <br>
+                <label for="Apellido">Apellido</label>
+                <br>
+                <input type="text" name="Apellido" id="Apellido">
+                <br>
+                <br>
+                <label for="Mail">E-Mail</label>
+                <br>
+                <input type="email" name="email" placeholder="nombre@ejemplo.com">
+                <br>
+                <br>
+                <label for="Telefono">Teléfono</label>
+                <br>
+                <input type="text" name="Telefono" id="Telefono">
+                <br>
+                <br>
+                <label for="hombre">Hombre</label>
+                <input type="radio" name="sexo" value="hombre" />
+                <label for="mujer">Mujer</label>
+                <input type="radio" name="sexo" value="mujer" />
+                <label for="otro">Otro</label>
+                <input type="radio" name="sexo" value="otro" />
+                <br>
+                <br>
+                <select name="tipoconsulta" id="tipoconsulta">
+                    <option value="inicial">Como llegaste a la marca?</option>
+                    <option value="Redes">Redes Sociales</option>
+                    <option value="Recomendación">Me la recomendaron</option>
+                    <option value="Internet">Por una publiciadad en Internet</option>
+                </select>
+                <br>
+                <br>
+                <label for="Mensaje">Mensaje</label>
+                <br>
+                <textarea name="Mensaje" id="Mensaje" cols="40" rows="10"></textarea>
+                <br>
+
+                <label for="infonueva">Deseo recibir novedades y promociones por mail</label>
+                <input type="checkbox" name="info" value="1">
+                <br>
+                <br>
+                <!-- Boton enviar-->
+                <input type="submit" value="Enviar">
+
+            </fieldset>
+        </form>
+    </main>
+    <footer class="menufooter">
+        <span class="vertical"><a href="formumsj.html">Mándanos un mensaje</a></span>
+        <span class="vertical"><a href="faq.html">FAQ</a></span>
+        <a href="https://www.instagram.com/"><img src="Imagenes/logoig.png" alt="" , width="35px" , height="35px"></a>
+        <a href="https://www.facebook.com/"><img src="Imagenes/logofb.png" alt="" , width="38px" , height="38px"></a>
+    </footer>
+</body>
+
+</html>

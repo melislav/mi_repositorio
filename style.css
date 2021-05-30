@@ -1,0 +1,173 @@
+/*Etiqueta Estilo general*/
+body{background-color: rgb(168, 165, 165); 
+    font-family: "New Tegomin";}
+
+
+/*Etiqueta Estilo titulos*/
+h1{color: rgb(250, 248, 250); 
+    font-size: 40px;
+    text-align: center; }
+h3{font-size: 30px;}
+h4{font-size: 20px; 
+    background-color: rgb(214, 214, 213);
+width: 95px;
+text-align: center;}
+.tituloProd{background-color: rgb(214, 214, 213);}
+
+/*versión sin cambios*/
+/*.seccion{text-align: center; margin-top: 50px; margin-bottom: 50px; }
+.article{color: rgb(22, 22, 26); width: 160px; height: 160px; 
+    margin-right: 50px; 
+    margin-left: 50px; 
+    margin-bottom: 150px;  
+    display: inline-block; 
+    position: relative;
+    text-align: center;}*/
+
+/*versión con cambios - flexbox*/
+.seccion1{ margin-top: 50px; 
+    margin-bottom: 500px; 
+    display: flex; 
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;}
+
+.article1{color: rgb(22, 22, 26); 
+    width: 200px; 
+    height: 160px;
+    text-align: center;
+}
+
+
+/*parrafos*/
+p{color: rgb(27, 24, 29); 
+    text-align: justify;}
+.pnosotros{font-size: 30px;}
+
+/*Clase para imagen producto*/
+.productos{width: 20%; 
+    height: 20%;}
+/*Clase imagen para header*/
+.imagenmenu{ 
+    width: 100%; 
+    height: auto; 
+}
+
+/*Clase boton busqueda*/
+.buscar{display: flex;
+    justify-content: flex-end;
+    }
+
+.imagen-ppales{height: 160px; 
+            width: 160px;
+        border-style: solid;
+   transition: all;}
+.imagen-ppales:hover{height: 200px;
+    width: 200px;
+
+}
+
+/*Clase para el menu*/
+.menu{  
+    background-color: rgb(32, 32, 32); 
+    margin-top: -20px;
+    padding: 10px;
+    margin-left: -15px;
+    margin-right: -15px;
+    }
+
+/*Clase para alinear items del menu 
+ul.navega li{display: inline; 
+    font-size: 150%;} */
+
+/*Clase para alinear items del menu - con flexbox*/
+.navega{display: flex;
+justify-content: flex-end;
+font-size: 20px;}
+
+/*Etiqueta Estilo footer*/
+footer{font-family:"New Tegomin"; 
+    font-size: 150%; 
+    background-color: rgb(32, 32, 32); 
+    padding-top: 20px; 
+    padding-bottom: 20px; 
+    margin-bottom: -10px;
+    margin-right: -10px;
+    margin-left: -10px;
+    display: flex; 
+    justify-content: center; 
+    
+}
+.vertical{vertical-align: top;}
+
+/*Etiqueta tabla
+.table{margin-top: 50px; 
+    list-style: square; 
+    border: rgb(32, 32, 32); 
+    padding: 50px; 
+    text-align: left;
+    border-style: solid; 
+    width: 100%; 
+    height: 100%;
+}
+td{padding:30px; 
+    border-style: solid; 
+    text-align: center;}*/
+
+/*Boton "Volver al Inicio"*/
+.botonInicio{text-align: right; 
+    font-size: 30px; 
+    margin: 0px;}
+
+/*Anclas*/
+a{text-decoration: none; 
+    padding: 10px;}
+
+.etiqueta-compra{padding-bottom: 5px ;}
+
+.logo{width: 10%; 
+    height: 10%;}
+
+fieldset{background-image: url("Imagenes/formu.jpg"); 
+    background-repeat: no-repeat; 
+    background-size: 100%; 
+    font-weight: 600;}
+
+
+/*Grid*/
+.grilla {
+    display: grid;
+    grid-template-areas: "Producto Caracteristicas Precio"
+    "Producto1 Caract1 Precio1"
+    "Producto2 Caract2 Precio2"
+    "Producto3 Caract3 Precio3"
+    "Producto4 Caract4 Precio4";
+    grid-template-rows: 2fr 3fr 3fr 3fr 3fr; 
+    grid-template-columns: 2fr 3fr 2fr;
+    row-gap: 20px;
+    column-gap: 20px;
+    padding: 10px;
+    justify-items: center;
+    align-items: center;
+    border: black;
+ }
+
+ .producto{grid-area: Producto; font-size: 30px;}
+ .caract{grid-area: Caracteristicas; font-size: 30px;}
+ .precio{grid-area: Precio; font-size: 30px;}
+
+ .producto1{grid-area: Producto1;}
+ .caract1{grid-area: Caract1;}
+ .precio1{grid-area: Precio1; text-align: center;}
+
+ .producto2{grid-area: Producto2;}
+ .caract2{grid-area: Caract2;}
+ .precio2{grid-area: Precio2; text-align: center;}
+
+ .producto3{grid-area: Producto3;}
+ .caract3{grid-area: Caract3;}
+ .precio3{grid-area: Precio3; text-align: center;}
+
+ .producto4{grid-area: Producto4;}
+ .caract4{grid-area: Caract4;}
+ .precio4{grid-area: Precio4; text-align: center;}
