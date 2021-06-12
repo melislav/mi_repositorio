@@ -1,79 +1,111 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
-</head>
-
-<body>
-    <header class="menu">
-        <nav>
-            <img src="Imagenes/imgen inicial.jpg" class="imagenmenu">
-            <div class="buscar">
-                <input type="search" name="buscar" value="Buscar...">
+    <title>Index con Bootstrap</title>
+  </head>
+  <body>
+    <div class="container">
+        <div class="container">
+        <header>
+                <img src="Imagenes/imgen inicial.jpg" class="imagenmenu">
+        </header>            
+    </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">Inicio</a>
+              <a class="navbar-brand" href="nosotros.html">Nosotros</a>
+              <a class="navbar-brand" href="diy.html">DIY</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Eshop
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                      <li><a class="dropdown-item" href="eshop.html">Collares</a></li>
+                      <li><a class="dropdown-item" href="cursos.html">Cursos</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
             </div>
-            <div class="navega">
-                <a href="index.html">Inicio</a>
-                <a href="nosotros.html">Nosotros</a>
-                <a href="eshop.html">E-shop</a>
-                <a href="cursos.html">Cursos</a>
-                <a href="diy.html">DIY</a>
-            </div>
-        </nav>
-    </header>
-    <section class="seccion1">
-        <article class="article1">
-            <h3 class="tituloProd">Producto1</h3>
-            <img src="Imagenes/producto1.jpg" alt="" class="imagen-ppales">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit vitae accusamus tempora? Deserunt
-                blanditiis
-                totam, cupiditate pariatur nemo necessitatibus magni id quas provident itaque suscipit quos beatae
-                delectus
-                aspernatur officiis!</p>
-            <h4><a href="eshop.html">Comprar</a></h4>
-        </article>
-        <article class="article1">
-            <h3 class="tituloProd">Producto2</h3>
-            <img src="Imagenes/producto2.PNG" alt="" class="imagen-ppales">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit vitae accusamus tempora? Deserunt
-                blanditiis
-                totam, cupiditate pariatur nemo necessitatibus magni id quas provident itaque suscipit quos beatae
-                delectus
-                aspernatur officiis!</p>
-            <h4><a href="eshop.html">Comprar</a></h4>
-        </article>
-        <article class="article1">
-            <h3 class="tituloProd">Producto3</h3>
-            <img src="Imagenes/producto3.jpg" alt="" class="imagen-ppales">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit vitae accusamus tempora? Deserunt
-                blanditiis
-                totam, cupiditate pariatur nemo necessitatibus magni id quas provident itaque suscipit quos beatae
-                delectus
-                aspernatur officiis!</p>
-            <h4><a href="eshop.html">Comprar</a></h4>
-        </article>
-        <article class="article1">
-            <h3 class="tituloProd">Curso2</h3>
-            <img src="Imagenes/curso1.jpg" alt="" class="imagen-ppales">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit vitae accusamus tempora? Deserunt
-                blanditiis
-                totam, cupiditate pariatur nemo necessitatibus magni id quas provident itaque suscipit quos beatae
-                delectus
-                aspernatur officiis!</p>
-            <h4><a href="cursos.html">Comprar</a></h4>
-        </article>
-    </section>
-    <footer>
-        <a href="formumsj.html" class="vertical">Mándanos un mensaje</a>
-        <a href="faq.html" class="vertical">FAQ</a>
-        <a href="https://www.instagram.com/"><img src="Imagenes/logoig.png" alt="" , width="35px" , height="35px"></a>
-        <a href="https://www.facebook.com/"><img src="Imagenes/logofb.png" alt="" , width="38px" , height="38px"></a>
-    </footer>
-</body>
+          </nav>
+        
+<div class="container">
+  <div class="row m-auto">
+   <div class="col-12 col-md-3">
+    <div class="card text-center">
+     <h3 class="card-title text-center">Collar Praga</h3>
 
+     <div class="text-center">
+      <img src="Imagenes/producto1.jpg" alt="" class="imagen-ppales">
+     </div>
+     <div class="card-body">
+      <p>Collar de tres cadenas con piedra de cuarzo</p>
+      <a href="eshop.html" class="btn btn-primary">Comprar</a>
+     </div>
+    </div>
+   </div>
+   <div class="col-12 col-md-3">
+    <div class="card text-center h-100">
+     <h3 class="card-title text-center">Collar Oslo</h3>
+     <div class="text-center">
+      <img src="Imagenes/producto2.PNG" alt="" class="imagen-ppales">
+     </div>
+     <div class="card-body ">
+      <p class="card-text ">Collar de tres cadenas con piedra de cuarzo</p>
+      <a href="eshop.html" class="btn btn-primary">Comprar</a>
+     </div>
+    </div>
+   </div>
+   <div class="col-12 col-md-3">
+    <div class="card text-center h-100">
+     <h3 class="card-title text-center">Collar Paris</h3>
+     <div class="text-center">
+      <img src="Imagenes/producto3.jpg" alt="" class="imagen-ppales">
+     </div>
+     <div class="card-body">
+      <p>Collar de tres cadenas con piedra de cuarzo</p>
+      <a href="eshop.html" class="btn btn-primary">Comprar</a>
+     </div>
+    </div>
+   </div>
+   <div class="col-12 col-md-3">
+    <div class="card text-center h-100">
+     <h3 class="card-title text-center">Próximo Curso</h3>
+     <div class="text-center">
+      <img src="Imagenes/Curso1.jpg" alt="" class="imagen-ppales">
+     </div>
+     <div class="card-body">
+      <p>Como fabricar velas aromáticas</p>
+      <a href="eshop.html" class="btn btn-primary">Comprar</a>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+            <footer>
+                <a href="formumsj.html" class="vertical">Mándanos un mensaje</a>
+                <a href="faq.html" class="vertical">FAQ</a>
+                <a href="https://www.instagram.com/"><img src="Imagenes/logoig.png" alt="" , width="35px" , height="35px"></a>
+                <a href="https://www.facebook.com/"><img src="Imagenes/logofb.png" alt="" , width="38px" , height="38px"></a>
+            </footer>
+
+    </div>
+
+    
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+  </body>
 </html>
