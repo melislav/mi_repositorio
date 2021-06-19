@@ -1,0 +1,191 @@
+/*Clase para imagen producto*/
+.productos {
+  width: 30%;
+  height: 30%; }
+
+/*Clase imagen para header*/
+.imagenmenu {
+  width: 118%;
+  height: auto;
+  margin-right: -100px;
+  margin-left: -100px; }
+
+.imagen-ppales {
+  height: 160px;
+  width: 160px;
+  border-style: solid;
+  transition: all 0,5s; }
+
+.imagen-ppales:hover {
+  transform: scale(1.3); }
+
+/*Grid*/
+.grilla {
+  display: grid;
+  grid-template-areas: "Producto Caracteristicas Precio" "Producto1 Caract1 Precio1" "Producto2 Caract2 Precio2" "Producto3 Caract3 Precio3" "Producto4 Caract4 Precio4";
+  grid-template-rows: 2fr 3fr 3fr 3fr 3fr;
+  grid-template-columns: 2fr 3fr 2fr;
+  row-gap: 20px;
+  column-gap: 20px;
+  padding: 10px;
+  justify-items: center;
+  align-items: center;
+  border: black; }
+
+.producto {
+  grid-area: Producto;
+  font-size: 30px; }
+
+.caract {
+  grid-area: Caracteristicas;
+  font-size: 30px; }
+
+.precio {
+  grid-area: Precio;
+  font-size: 30px; }
+
+.producto1 {
+  grid-area: Producto1; }
+
+.caract1 {
+  grid-area: Caract1; }
+
+.precio1 {
+  grid-area: Precio1;
+  text-align: center; }
+
+.producto2 {
+  grid-area: Producto2; }
+
+.caract2 {
+  grid-area: Caract2; }
+
+.precio2 {
+  grid-area: Precio2;
+  text-align: center; }
+
+.producto3 {
+  grid-area: Producto3; }
+
+.caract3 {
+  grid-area: Caract3; }
+
+.precio3 {
+  grid-area: Precio3;
+  text-align: center; }
+
+.producto4 {
+  grid-area: Producto4; }
+
+.caract4 {
+  grid-area: Caract4; }
+
+.precio4 {
+  grid-area: Precio4;
+  text-align: center; }
+
+.tituloPreguntas {
+  text-decoration: underline; }
+  .tituloPreguntas__decorado::after {
+    font-size: x-large; }
+
+/*Etiqueta Estilo general*/
+body {
+  background-color: #a8a5a5;
+  font-family: "New Tegomin"; }
+
+nav ul {
+  color: #faf8fa; }
+
+/*Etiqueta Estilo titulos*/
+h1 {
+  color: #faf8fa;
+  font-size: 40px;
+  text-align: center; }
+
+h3 {
+  font-size: 30px; }
+
+h4 {
+  font-size: 20px;
+  background-color: #faf8fa;
+  width: 95px;
+  text-align: center; }
+
+/*parrafos*/
+p {
+  color: #1b181d;
+  text-align: justify;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 30px; }
+
+.pnosotros {
+  font-size: 30px; }
+  .pnosotros__subrayado {
+    text-decoration: underline; }
+    .pnosotros__subrayado--decorado {
+      font-family: Arial, Helvetica, sans-serif; }
+
+/*Clase boton busqueda*/
+.buscar {
+  display: flex;
+  justify-content: flex-end; }
+
+/*Clase para el menu*/
+.menu {
+  background-color: #202020;
+  margin-top: -20px;
+  padding: 10px;
+  margin-left: -15px;
+  margin-right: -15px; }
+
+/*Clase para alinear items del menu - con flexbox*/
+.navega {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 20px; }
+
+/*Etiqueta Estilo footer*/
+footer {
+  font-family: "New Tegomin";
+  font-size: 150%;
+  background-color: #202020;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: -10px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  position: sticky; }
+  footer a {
+    vertical-align: top; }
+
+/*Boton "Volver al Inicio"*/
+.botonInicio {
+  text-align: right;
+  font-size: 30px;
+  margin: 0px; }
+
+/*Anclas*/
+a {
+  text-decoration: none;
+  color: antiquewhite;
+  padding: 10px; }
+
+.etiqueta-compra {
+  padding-bottom: 5px;
+  background-color: #30b1fc; }
+
+.logo {
+  width: 10%;
+  height: 10%; }
+
+fieldset {
+  background-image: url("Imagenes/formu.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-weight: 600; }
+
+.form {
+  display: block; }

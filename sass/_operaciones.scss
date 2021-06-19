@@ -1,0 +1,5 @@
+.tituloPreguntas{text-decoration: underline;
+    &__decorado::after{
+        font-size: x-large;
+    }
+}

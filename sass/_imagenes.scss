@@ -1,0 +1,21 @@
+
+
+/*Clase para imagen producto*/
+.productos{width: 30%; 
+    height: 30%;}
+    
+/*Clase imagen para header*/
+.imagenmenu{ 
+    width: 118%; 
+    height: auto;
+    margin-right: -100px;
+    margin-left: -100px;}
+
+.imagen-ppales{height: 160px; 
+        width: 160px;
+        border-style: solid;
+        transition: all 0,5s;}
+.imagen-ppales:hover
+    {transform: scale(1.3);
+
+}

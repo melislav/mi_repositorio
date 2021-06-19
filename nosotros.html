@@ -5,8 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Nice Things es una tienda online de accesorios de moda y diseño
+    que incorpora la útilización de piedras y recursos naturales">
+    <meta name="keywords" content="collares, pulseras, anillos, piedras, cursos, moda, accesorios">
+    <title>Proyecto Final CH</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
 
 </head>
@@ -14,17 +18,26 @@
 <body>
     <header class="menu">
         <h1>Como empezó nuestra historia</h1>
-        <div class="navega">
-            <a href="index.html">Inicio</a>
-            <a href="nosotros.html">Nosotros</a>
-            <a href="eshop.html">E-shop</a>
-            <a href="cursos.html">Cursos</a>
-            <a href="diy.html">DIY</a>
-        </div>
+        <nav class="navbar navbar-expand-md navbar-light" style="font-size: x-large; color: cornsilk;">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#toggleMobileMenu" aria-controls="toggleMobileMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="toggleMobileMenu">
+                <ul class="navbar-nav text-center ms-auto">
+                  <li class="nav-item"><a class="nav-link botones__menu" href="index.html">Inicio</a></li>
+                  <li class="nav-item"><a class="nav-link botones__menu" href="nosotros.html">Nosotros</a></li>
+                  <li class="nav-item"><a class="nav-link botones__menu" href="eshop.html">E-shop</a></li>
+                  <li class="nav-item"><a class="nav-link botones__menu" href="cursos.html">Cursos</a></li>
+                  <li class="nav-item"><a class="nav-link botones__menu" href="diy.html">DIY</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
     <div>
         <p class="pnosotros">
-            Nice Things es una marca que comenzó en el año 2015, con la idea de acercar diseños de calidad 
+            <span class="pnosotros__subrayado">Nice Things</span> es una marca que comenzó en el año 2015, con la idea de acercar diseños de calidad 
             pero con precios accesibles. En nuestras producciones utilizamos siempre los mejores materiales 
             y piedras naturales. En el año 2018, decidimos incorporar cursos y talleres para poder compartir nuestras
             herramientas y técnicas. 
@@ -33,7 +46,7 @@
     <main>
         <article>
             <h2>Nuestra Visión</h2>
-            <p>Buscamos llegar con nuestros productos y cursos a todo el país, aportando 
+            <p> Buscamos llegar con <span class="pnosotros__subrayado--decorado">nuestros productos y cursos</span> a todo el país, aportando 
                 conocimiento e inspirando a otros a que hagan lo mismo y puedan disfrutar al máximo de lo que compran y/o producen.
 
             </p>
@@ -57,6 +70,7 @@
         <a href="https://www.instagram.com/"><img src="Imagenes/logoig.png" alt="" , width="35px" , height="35px"></a>
         <a href="https://www.facebook.com/"><img src="Imagenes/logofb.png" alt="" , width="38px" , height="38px"></a>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </body>
 
 </html>

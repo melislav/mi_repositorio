@@ -5,25 +5,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FAQ</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Guia de preguntas y respuestas más frecuentes">
+    <meta name="keywords" content="collares, pulseras, anillos, piedras, cursos, moda, accesorios">
+    <title>Proyecto Final CH - FAQ</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header class="menu">
         <h1>Algunas de las consultas que siempre nos hacen</h1>
-        <div class="navega">
-            <a href="index.html">Inicio</a>
-            <a href="nosotros.html">Nosotros</a>
-            <a href="eshop.html">E-shop</a>
-            <a href="cursos.html">Cursos</a>
-            <a href="diy.html">DIY</a>
-        </div>
+        <nav class="navbar navbar-expand-md navbar-light" style="font-size: x-large; color: cornsilk;">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#toggleMobileMenu" aria-controls="toggleMobileMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="toggleMobileMenu">
+                <ul class="navbar-nav text-center ms-auto">
+                  <li class="nav-item"><a class="nav-link botones__menu" href="index.html">Inicio</a></li>
+                  <li class="nav-item"><a class="nav-link botones__menu" href="nosotros.html">Nosotros</a></li>
+                  <li class="nav-item"><a class="nav-link botones__menu" href="eshop.html">E-shop</a></li>
+                  <li class="nav-item"><a class="nav-link botones__menu" href="cursos.html">Cursos</a></li>
+                  <li class="nav-item"><a class="nav-link botones__menu" href="diy.html">DIY</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
     <main>
         <article>
-            <h3>Cuanto tarda el envio en llegar a mi casa?</h3>
+            <h3 class="tituloPreguntas">Cuanto tarda el envio en llegar a mi casa?</h3>
             <p>
                 CABA y GBA: La demora de entrega suele ser entre 3 a 5 días hábiles.
                 <br>
@@ -31,7 +43,7 @@
             </p>
         </article>
         <article>
-            <h3>Como puedo calcular el costo del envio?</h3>
+            <h3 class="tituloPreguntas">Como puedo calcular el costo del envio?</h3>
             <p>
                 El costo del envío dependera del método de encomienda que elijas.
                 <br>
@@ -40,27 +52,29 @@
             </p>
         </article>
         <article>
-            <h3>Como puedo realizar el cambio?</h3>
+            <h3 class="tituloPreguntas">Como puedo realizar el cambio?</h3>
             <p>
              Nos podes contactar a través de nuestra web, enviandonos un mensaje desde la sección de contacto o por mensaje directo a través de nuestras redes sociales.
             </p>
         </article>
         <article>
-            <h3>Como puedo hacer uso de una gift card?</h3>
+            <h3 class="tituloPreguntas">Como puedo hacer uso de una gift card?</h3>
             <p>Nos podes contactar a través de nuestra web, enviandonos un mensaje desde la sección de contacto o por mensaje directo a través de nuestras redes sociales.
             </p>
         </article>
         <article>
-            <h2>Te quedan más consultas?</h2>
-            <p>No dudes en escribirnos, dejanos tu mensaje en este <a href="formumsj.html">Link</a></p>
+            <h2 class="tituloPreguntas">Te quedan más consultas?</h2>
+            <p class="tituloPreguntas__decorado">No dudes en escribirnos, dejanos tu mensaje en este <a href="formumsj.html">Link</a></p>
         </article>
+        
     </main>
     <footer>
-        <span class="vertical"><a href="formumsj.html">Mándanos un mensaje</a></span>
-        <span class="vertical"><a href="faq.html">FAQ</a></span>
+        <span><a href="formumsj.html">Mándanos un mensaje</a></span>
+        <span><a href="faq.html">FAQ</a></span>
         <a href="https://www.instagram.com/"><img src="Imagenes/logoig.png" alt="" , width="35px" , height="35px"></a>
         <a href="https://www.facebook.com/"><img src="Imagenes/logofb.png" alt="" , width="38px" , height="38px"></a>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </body>
 
 </html>

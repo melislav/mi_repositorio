@@ -1,0 +1,39 @@
+$size: 10px;
+
+/*Grid*/
+.grilla {
+    display: grid;
+    grid-template-areas: "Producto Caracteristicas Precio"
+    "Producto1 Caract1 Precio1"
+    "Producto2 Caract2 Precio2"
+    "Producto3 Caract3 Precio3"
+    "Producto4 Caract4 Precio4";
+    grid-template-rows: 2fr 3fr 3fr 3fr 3fr; 
+    grid-template-columns: 2fr 3fr 2fr;
+    row-gap: $size * 2;
+    column-gap: $size *2;
+    padding: $size;
+    justify-items: center;
+    align-items: center;
+    border: black;
+ }
+
+ .producto{grid-area: Producto; font-size: $size *3;}
+ .caract{grid-area: Caracteristicas; font-size: $size *3;}
+ .precio{grid-area: Precio; font-size: $size*3;}
+
+ .producto1{grid-area: Producto1;}
+ .caract1{grid-area: Caract1;}
+ .precio1{grid-area: Precio1; text-align: center;}
+
+ .producto2{grid-area: Producto2;}
+ .caract2{grid-area: Caract2;}
+ .precio2{grid-area: Precio2; text-align: center;}
+
+ .producto3{grid-area: Producto3;}
+ .caract3{grid-area: Caract3;}
+ .precio3{grid-area: Precio3; text-align: center;}
+
+ .producto4{grid-area: Producto4;}
+ .caract4{grid-area: Caract4;}
+ .precio4{grid-area: Precio4; text-align: center;}
