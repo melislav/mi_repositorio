@@ -5,11 +5,19 @@
     height: 30%;}
     
 /*Clase imagen para header*/
-.imagenmenu{ 
-    width: 118%; 
+
+
+.imagenmenu{
+    width: 100%;
     height: auto;
-    margin-right: -100px;
-    margin-left: -100px;}
+      }
+@supports(object-fit: cover){
+    .imagenmenu{
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+          }
+      }
 
 .imagen-ppales{height: 160px; 
         width: 160px;
