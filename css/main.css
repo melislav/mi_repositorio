@@ -127,10 +127,16 @@ p {
   text-align: justify;
   margin-left: 20px;
   margin-right: 20px;
-  padding: 10px; }
+  padding: 20px; }
+
+.titulo-nosotros {
+  margin-left: 60px;
+  margin-right: 60px;
+  padding: 20px; }
 
 .pnosotros {
-  font-size: 30px; }
+  font-size: 30px;
+  margin: 100px; }
   .pnosotros__subrayado {
     text-decoration: underline; }
     .pnosotros__subrayado--decorado {
@@ -193,3 +199,8 @@ fieldset {
   background-size: 100%;
   font-weight: 600;
   display: list-item; }
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }

@@ -34,13 +34,21 @@ p{color: rgb(27, 24, 29);
     text-align: justify;
     margin-left: 20px;
     margin-right: 20px;
-    padding: 10px;}
+    padding: 20px;}
 
+.titulo-nosotros{
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 20px;
+
+}
 .pnosotros{font-size: 30px;
+            margin: 100px;
     &__subrayado{
         text-decoration: underline;
         &--decorado{
             font-family: Arial, Helvetica, sans-serif;
+        
         }
     }
 }
@@ -98,6 +106,15 @@ fieldset{background-image: url("Imagenes/formu.jpg");
     background-size: 100%; 
     font-weight: 600;
 display: list-item;}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  
+    
+    
+}
 
 
 
